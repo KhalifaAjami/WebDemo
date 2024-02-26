@@ -10,4 +10,12 @@
     <ProjectReference Include="..\WebDemo.Domain\WebDemo.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Contracts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
 </Project>
